@@ -7,10 +7,16 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 4.5rem;
+}
 #navbar {
   background-color: var(--secondaryColor);
-  height: 4em;
-  width: 100vw;
+  height: 4rem;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   color: white;
@@ -38,35 +44,35 @@
 }
 
 #Intro {
-  height: 85vh;
-  width: 100vw;
+  height: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-size: 1.7em;
-  margin-top: 3em;
+  font-size: 1.7rem;
+  margin-top: 3.5rem;
 }
 .intro-img {
   height: 15em;
   width: 15em;
 }
 #aboutme {
-  height: 95vh;
-  width: 100vw;
+  height: 90vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .aboutme-img {
-  height: 20em;
-  width: 20em;
+  height: 20rem;
+  width: 20rem;
   border-radius: 50%;
   object-fit: cover;
 }
 .aboutme-img-div {
   height: 20em;
-  width: 30vw;
+  width: 30%;
   display: flex;
   justify-content: flex-end;
   padding: 1em;
@@ -75,7 +81,7 @@
   text-align: justify;
   font-size: 1.3em;
   background-color: var(--primaryColor);
-  width: 50vw;
+  width: 50%;
   padding: 2em;
   border-radius: 2%;
 }
@@ -86,7 +92,7 @@
   box-shadow: 3px 3px 3px 3px var(--secondaryColor);
 }
 #Projects {
-  width: 98vw;
+  width: 100%;
 }
 #Projects a {
   color: black;
@@ -104,8 +110,8 @@
   font-size: 1.5em;
 }
 .proj-img {
-  width: 45em;
-  height: 25em;
+  width: 45rem;
+  height: 25rem;
   border: 0.5px solid var(--secondaryColor);
   border-radius: 3%;
 }
@@ -169,7 +175,7 @@
   margin-top: 1.5em;
 }
 .contact-img {
-  width: 40vw;
+  width: 40%;
   height: 40vh;
   position: absolute;
   bottom: 0;
@@ -178,7 +184,7 @@
   position: absolute;
   right: 0;
   height: 100%;
-  width: 50vw;
+  width: 50%;
 }
 .links {
   color: white;
@@ -192,6 +198,7 @@ a {
   text-decoration: none;
   color: white;
 }
-a:hover {
+a:hover,
+:active {
   color: var(--primaryColor);
 }
