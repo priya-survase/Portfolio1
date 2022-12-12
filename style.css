@@ -79,14 +79,14 @@ section {
 }
 .aboutme-txt {
   text-align: justify;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   background-color: var(--primaryColor);
   width: 50%;
   padding: 2em;
   border-radius: 2%;
 }
 .aboutme-txt .heading {
-  font-size: 2em;
+  font-size: 2rem;
 }
 .aboutme-txt:hover {
   box-shadow: 3px 3px 3px 3px var(--secondaryColor);
@@ -124,7 +124,7 @@ section {
   justify-content: center;
   align-items: center;
   padding-top: 3em;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   height: 11em;
   width: 15em;
   text-align: center;
@@ -171,7 +171,7 @@ section {
   height: 10vh;
   color: var(--primaryColor);
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin-top: 1.5em;
 }
 .contact-img {
@@ -188,7 +188,7 @@ section {
 }
 .links {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin-top: 2.5em;
   display: flex;
   align-content: center;
