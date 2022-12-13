@@ -107,6 +107,7 @@ section {
   justify-content: center;
   align-items: center;
   margin-top: 1.5em;
+  margin-bottom: 1em;
 }
 .proj-head {
   color: var(--primaryColor);
@@ -129,11 +130,17 @@ section {
   justify-content: center;
   align-items: center;
   padding-top: 3em;
-  font-size: 1.2em;
+  font-size: 1em;
   height: 11em;
-  width: 15em;
+  width: 17em;
   text-align: center;
-  vertical-align: middle;
+  margin: 1em;
+}
+.proj-btn-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 .proj-btn {
   background-color: var(--primaryColor);
@@ -142,8 +149,9 @@ section {
   align-items: center;
   border-radius: 5%;
   border-color: white;
-  height: 3em;
-  width: 8em;
+  height: 2em;
+  width: 7em;
+  padding: 0.5em;
 }
 .btn:hover {
   box-shadow: 5px 5px var(--secondaryColor);
@@ -295,6 +303,12 @@ a:hover {
     height: 5em;
     width: 100vmin;
   }
+  .proj-btn-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
   .proj-btn {
     background-color: var(--primaryColor);
     display: flex;
@@ -302,9 +316,10 @@ a:hover {
     align-items: center;
     border-radius: 2%;
     border-color: white;
-    height: 7em;
-    width: 8em;
-    padding: 3px;
+    height: 2em;
+    width: 4em;
+    padding: 5px;
+    margin: 2px;
   }
   .allbtn {
     background-color: var(--primaryColor);
